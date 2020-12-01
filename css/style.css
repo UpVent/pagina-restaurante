@@ -57,7 +57,7 @@
     SKELETON
 -------------------------------------------------------------------*/
 @font-face {
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
     src: url('../fonts/nautilus-webfont.woff2') format('woff2'),
          url('../fonts/nautilus-webfont.woff') format('woff');
     font-weight: normal;
@@ -878,7 +878,7 @@ html, body{ height: 100%; }
 .offer-item div h3 {
     font-size: 20px;
     margin: 9px 0 0px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
     font-weight: 400;
     letter-spacing: .5px;
 }
@@ -978,7 +978,7 @@ html, body{ height: 100%; }
 }
 
 .text-col h3{
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Roboto';
 	font-size:28px;
 }
 
@@ -1303,7 +1303,7 @@ html, body{ height: 100%; }
 }
 
 .pricing-main h2{
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Roboto';
 	padding-bottom:30px;
 }
 
@@ -1577,7 +1577,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .ft-title {
     letter-spacing: 0.96px;
     margin-bottom: 22px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
 	font-size: 52px;
 }
 
@@ -1691,7 +1691,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-a h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
 }
 .footer-box-a p{
 	font-size: 14px;
@@ -1703,7 +1703,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-b h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
 }
 .footer-box-b p{
 	font-size: 14px;
@@ -1723,7 +1723,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-c h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
 }
 .footer-box-c p{
 	font-size: 14px;
@@ -1755,7 +1755,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-d h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Roboto';
 }
 .footer-box-d p{
 	font-size: 14px;
