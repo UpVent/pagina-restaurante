@@ -18,16 +18,16 @@
 	border: 3px solid #00B955;
 }
 .book-btn a:hover{
-	border: 3px solid #f04900;
+	border: 3px solid #00B955;
 }
 .hvr-underline-from-center::before{
-	background:#f04900;
+	background:#00B955;
 }
 .block-title{
 	color: #00B955;
 }
 .item-type-zoom .item-hover:hover::before{
-	background: rgba(231, 91, 30, 0.5);
+	background: rgba(0, 185, 85, 0.75);
 }
 .special-box .owl-theme .owl-controls .owl-page.active span{
 	background: #00B955;
@@ -54,7 +54,7 @@
 	background-color: #00B955;
 }
 .gal-item a::after{
-	background-color: rgba(231, 91, 30, 0.75);
+	background-color: rgba(0, 185, 85, 0.75);
 }
 .overlay i:hover{
 	border: 1px solid #00B955;
