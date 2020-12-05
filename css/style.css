@@ -598,6 +598,15 @@ html, body{ height: 100%; }
 	font-weight: bold;
 }
 
+
+.block-subtitle{
+	font-size:30px;
+	font-family: 'Roboto';
+	font-weight: bold;
+    color: #00B955;
+
+}
+
 .about-images {
     text-align: center;
     position: relative;
