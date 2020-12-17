@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
     <head>
-
         <!-- Basic -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,11 +30,6 @@
 
         <!-- Modernizer -->
         <script src="js/modernizer.js"></script>
-
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -520,123 +513,41 @@
         </div>
         <!-- end gallery-main -->
 
-        <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
-            <div class="container">
-                <div class="row">
-                    <div class="form-reservations-box">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                                <h2 class="block-title text-center">
-						            Contacto / Cotizaciones
-					            </h2>
-                            </div>
-                            <h4 class="form-title">Formulario de Cotizaciones</h4>
-                            <p>Si desea solicitar una cotización de franquicia por favor llene el siguiente formulario en su totalidad.</p>
-
-                            <form id="contact-form" method="post" class="reservations-box" name="contactform" action="mail.php">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="form_name" id="form_name" placeholder="Nombre" required="required" data-error="Firstname is required.">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="email" name="email" id="email" placeholder="Dirección de Correo Electrónico" required="required" data-error="E-mail id is required.">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="phone" id="phone" placeholder="Número de Teléfono">
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <select name="no_of_persons" id="no_of_persons" class="selectpicker">
-                                            <option selected disabled>Razón de contacto</option>
-                                            <option>Adquisición de Franquicia</option>
-                                            <option>Asesoría / Consultoría de Franquicia</option>
-                                            <option>Solicitar más información</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="date-picker" id="date-picker" placeholder="Date" required="required" data-error="Date is required." />
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <input type="text" name="time-picker" id="time-picker" placeholder="Time" required="required" data-error="Time is required." />
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <select name="preferred_food" id="preferred_food" class="selectpicker">
-                                            <option selected disabled>preferred food</option>
-                                            <option>Indian</option>
-                                            <option>Continental</option>
-                                            <option>Mexican</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-box">
-                                        <select name="occasion" id="occasion" class="selectpicker">
-                                            <option selected disabled>Occasion</option>
-                                            <option>Wedding</option>
-                                            <option>Birthday</option>
-                                            <option>Anniversary</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="reserve-book-btn text-center">
-                                        <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit">BOOK MY TABLE </button>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </form>
-                            <!-- end form -->
-                        </div>
-                        <!-- end col -->
+        <div id="reservation" class="container-fluid pad-top-100 pad-bottom-100">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						    Contacto / Cotizaciones
+					    </h2>
                     </div>
-                    <!-- end reservations-box -->
+                    <h4 class="form-title">Formulario de Cotizaciones</h4>
+                    <p>Si desea solicitar una cotización de franquicia por favor llene el siguiente formulario en su totalidad.</p>
+
+                    <form action="https://formspree.io/f/xzbkjynk" method="POST">
+                        <div class="form-group">
+                            <label class="form-text">
+                                Your email:
+                                <input class="form-control form-control-lg" type="text" name="_replyto">
+                            </label>
+                            <br />
+                            <label>
+                                Your message:
+                                <textarea class="form-control form-control-lg" name="message"></textarea>
+                            </label>
+                        </div>
+
+                        <!-- your other form fields go here -->
+                        <button class="btn btn-success" type="submit">Send</button>
+                    </form>
                 </div>
-                <!-- end row -->
+                <!-- end reservations-box -->
             </div>
             <!-- end container -->
         </div>
         <!-- end reservations-main -->
 
         <div id="footer" class="footer-main">
-            <div class="footer-news pad-top-100 pad-bottom-70 parallax">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                                <h2 class="ft-title color-white text-center"> ¡Noticias! </h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <form>
-                                <input type="email" placeholder="Enter your e-mail id">
-                                <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
-                            </form>
-                        </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end row -->
-                </div>
-                <!-- end container -->
-            </div>
             <!-- end footer-news -->
             <div class="footer-box pad-top-70">
                 <div class="container">
@@ -676,17 +587,22 @@
                                     <h3>Contact Us</h3>
                                     <p>
                                         <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                        <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
+                                        <span>
+                                            Av. José María morelos No 370
+                                            Leona Vicario
+                                            77016 Chetumal, QROO
+                                            México
+                                        </span>
                                     </p>
                                     <p>
                                         <i class="fa fa-mobile" aria-hidden="true"></i>
                                         <span>
-									        +91 80005 89080
+                                            983 129 2667
 								        </span>
                                     </p>
                                     <p>
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        <span><a href="#">support@foodfunday.com</a></span>
+                                        <span><a href="#">babutebar@gmail.com</a></span>
                                     </p>
                                 </div>
                                 <!-- end footer-box-c -->
@@ -694,16 +610,12 @@
                             <!-- end col -->
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                 <div class="footer-box-d">
-                                    <h3>Opening Hours</h3>
+                                    <h3>Horatios de Atención</h3>
 
                                     <ul>
                                         <li>
-                                            <p>Monday - Thursday </p>
-                                            <span> 11:00 AM - 9:00 PM</span>
-                                        </li>
-                                        <li>
-                                            <p>Friday - Saturday </p>
-                                            <span>  11:00 AM - 5:00 PM</span>
+                                            <p>Lunes - Domingo </p>
+                                            <span> 08:00 AM - 22:00 PM</span>
                                         </li>
                                     </ul>
                                 </div>
